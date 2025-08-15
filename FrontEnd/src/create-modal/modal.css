@@ -1,0 +1,146 @@
+/* Fundo escuro com centralização */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Scroll para telas pequenas */
+  
+}
+
+/* Caixa central do modal de produto */
+.modal-content {
+  background: #2020209c;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.377);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  height: auto;
+}
+/* Caixa Central do modal de usuário */
+.modal-content-user {
+  background: #0e0e0ea4;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.300);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  height: auto;
+}
+
+/* Título do modal */
+.modal-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f7f7f7;
+}
+/* Titulo do modal usuário */
+.modal-title-user {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  repeat: none
+}
+/* Container dos inputs */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Estilo aplicado aos campos de input */
+.input-container input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Estilo aplicado ao label dentro do componente Input */
+.input-container label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #dddddd;
+ margin-right: 90%;
+}
+
+/* Botão de ação Produto*/
+.button-secundery {
+  background-color: #00115c;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* Botão Açãp Usuário */
+.button-create-user{
+   background-color: #8f0101;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ .button-secundery {
+  width: 100%;
+  box-sizing: border-box;
+}
+select {
+  width: 100%;
+  height: 7vh;
+  border-radius: 6px; 
+  font-size: 1rem; 
+  border: white solid 1px;
+  
+}
+
+.button-secundery:hover {
+  background-color: #0056b3;
+}
+.button-create-user:hover {
+  background-color: red;
+}
+
+
+
+/* Responsivo para celulares */
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 20px;
+  }
+
+  .modal-title {
+    font-size: 1.3rem;
+  }
+
+  .button-secundery {
+    font-size: 0.95rem;
+    padding: 12px 16px;
+  }
+}

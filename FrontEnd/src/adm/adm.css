@@ -1,0 +1,178 @@
+.container-adm {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  background: linear-gradient(rgba(31, 31, 31, 0.7), rgba(0,0,0,0.7)), url('https://static.vecteezy.com/ti/vetor-gratis/t1/28108797-metal-ferro-preto-folha-sobreposicao-em-metalico-favo-de-mel-aco-malha-modelo-fundo-moderno-projeto-premio-ilustracao-vetor.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.title-adm {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff; /* Preto quase puro */
+  margin: 0;
+}
+
+#button-novo-produto {
+  padding: 10px 22px;
+  background-color: #002549; /* Azul escuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#button-novo-produto:hover {
+  background-color: #001f4d; /* Azul mais escuro no hover */
+}
+/* 🧱 Estilo do grupo de botões */
+.group-button {
+  display: flex;
+  justify-content: space-evenly; /* espaço entre os botões */
+  gap: 10px;
+}
+.group-produtos {
+   padding: 20px;
+  background-color: #07366b5b;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-produtos{
+ border-bottom: 1px solid white;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 0.8vh 16vw;
+  margin-top: 2vh;
+  font-weight: bold;
+}
+
+
+
+/* 🎯 Estilo dos botões */
+.group-button button {
+  padding: 10px 18px;
+  background-color: #002549; /* azul escuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: 1px solid white
+}
+
+#List_Prod {
+  padding: 10px 18px;
+  background-color: #002549; /* azul escuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: 1px solid white
+}
+.group-button button:hover {
+  background-color: #001f4d;
+}
+@media (max-width: 450px) {
+.group-button {
+  display: flex;
+  flex-wrap: wrap; /* permite que quebre em telas menores */
+  gap: 16px; /* espaço entre os botões */
+  padding: 20px;
+  background-color: #07366b5b;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+
+}
+
+}
+.group-itens {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+/* estilização dos buttons de users */
+.group-users {
+ padding: 20px;
+  background-color: #9c00005b;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.title-users {
+   border-bottom: 1px solid white;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  padding: 0.8vh 16vw;
+  margin-top: 2vh;
+  font-weight: bold;
+}
+.group-buttons-users {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  gap: 10px;
+  
+}
+.group-buttons-users button {
+  padding: 10px 18px;
+  background-color: #790000; /* azul escuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: 1px solid white
+}
+.list-users{
+   padding: 10px 18px;
+  background-color: #790000; /* azul escuro */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border: 1px solid white
+}
+
+/* resposividade button users */
+@media (max-width: 450px) {
+.group-buttons-users {
+  display: flex;
+  flex-wrap: wrap; /* permite que quebre em telas menores */
+  gap: 16px; /* espaço entre os botões */
+  padding: 20px;
+  background-color: #6d00005b;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: center;
+
+}
+}
+@media (max-width: 450px) {
+  .group-itens {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+

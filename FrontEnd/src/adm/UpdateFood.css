@@ -1,0 +1,21 @@
+ .label-name {
+    margin-right: 85%;
+}
+ .label-name-img-url {
+     margin-right: 65%;
+
+}
+.btn-update{
+    width: 108%;
+    font-size: 1rem;
+} 
+
+.form-update{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn-alter {
+  background-color: #3498db;
+  color: white;
+}

@@ -1,0 +1,85 @@
+.page-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.user-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.user-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #111; /* Fundo escuro do card */
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s;
+  flex-direction: row;
+  gap: 20px;
+  
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.user-role {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Botões */
+.btn {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+/* Deletar */
+.btn.delete,
+.user-actions .btn.delete {
+  background-color: #e53935;
+  color: #fff;
+}
+
+.btn.delete:hover {
+  background-color: #c62828;
+}
+
+/* Editar */
+.btn.edit {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.btn.edit:hover {
+  background-color: #1976d2;
+}
+
+
+
